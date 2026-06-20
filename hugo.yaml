@@ -1,0 +1,61 @@
+baseURL: "https://hanxin.org.cn"
+languageCode: zh-cn
+title: "寒心的角落"
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+menu:
+  main:
+    - identifier: posts
+      name: 博客
+      url: /posts/
+      weight: 10
+    - identifier: wiki
+      name: 知识库
+      url: /wiki/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 40
+
+params:
+  description: "写想法，存知识"
+  dateFormat: "2006-01-02"
+  env: production
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  homeInfoParams:
+    Title: "你好，我是寒心 👋"
+    Content: 这是我的个人博客，记录想法和知识。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: email
+      url: "mailto:hi@hanxin.org.cn"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

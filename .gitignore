@@ -1,0 +1,16 @@
+# 构建输出
+/public/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugo
+.hugo_build.lock
+resources/_gen/

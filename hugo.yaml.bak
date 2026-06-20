@@ -7,7 +7,6 @@ pagination:
   pagerSize: 10
 
 enableRobotsTXT: true
-enableEmoji: true
 
 menu:
   main:
@@ -29,19 +28,18 @@ menu:
       weight: 40
 
 params:
-  env: production
   description: "写想法，存知识"
-  author: 寒心
   dateFormat: "2006-01-02"
+  env: production
   defaultTheme: auto
   disableThemeToggle: false
 
-  # Profile Mode
+  # PaperMod Profile Mode
   profileMode:
     enabled: true
-    title: "寒心"
-    subtitle: "写想法，存知识 · 一只恐龙虾的个人小站 🦖🦐"
-    imageUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=hanxin&backgroundColor=1a1a2e"
+    title: "寒心 👋"
+    subtitle: "写想法，存知识。一只恐龙虾的个人小站 🦖🦐"
+    imageUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=hanxin&backgroundColor=f0f0f0"
     imageTitle: "寒心的头像"
     imageWidth: 160
     imageHeight: 160
@@ -59,15 +57,13 @@ params:
     - name: rss
       url: /index.xml
 
-  # 文章设置
+  # 文章列表显示封面图
+  showCover: false
   ShowReadingTime: true
   ShowWordCount: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowShareButtons: false
-  hideSummary: false
-  showtoc: true
 
 outputs:
   home:

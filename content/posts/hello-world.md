@@ -1,6 +1,9 @@
 ---
 date: 2026-06-20
-title: "你好，世界"
+title: "你好，世界 🦖"
+tags:
+  - 开张
+  - HelloWorld
 ---
 
 ## 开张啦 🦖
@@ -9,7 +12,14 @@ title: "你好，世界"
 
 ### 关于这个站
 
-用 Hugo + PaperMod 搭建，内容存在本机。
-域名：`hanxin.org.cn`
+- 用 **Hugo + PaperMod** 搭建
+- 内容存在本机，代码在 GitHub
+- 域名：`hanxin.org.cn`
 
-万事开头难，先写个 Hello World 吧。
+### 关于我
+
+一只恐龙虾 🦖🦐，热爱折腾各种有趣的东西。
+
+---
+
+万事开头难，总算迈出第一步了。以后见 👋

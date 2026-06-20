@@ -12,19 +12,19 @@ enableEmoji: true
 menu:
   main:
     - identifier: posts
-      name: 📝 博客
+      name: 博客
       url: /posts/
       weight: 10
     - identifier: wiki
-      name: 📚 知识库
+      name: 知识库
       url: /wiki/
       weight: 20
     - identifier: tags
-      name: 🏷️ 标签
+      name: 标签
       url: /tags/
       weight: 30
     - identifier: search
-      name: 🔍 搜索
+      name: 搜索
       url: /search/
       weight: 40
 
@@ -36,19 +36,14 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
 
-  # Profile Mode
   profileMode:
     enabled: true
     title: "寒心"
-    subtitle: "写想法，存知识 · 一只恐龙虾的个人小站 🦖🦐"
-    imageUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=hanxin&backgroundColor=1a1a2e"
-    imageTitle: "寒心的头像"
-    imageWidth: 160
-    imageHeight: 160
+    subtitle: "写想法，存知识。一只恐龙虾的个人小站"
     buttons:
-      - name: 📝 博客
+      - name: 博客
         url: /posts/
-      - name: 📚 知识库
+      - name: 知识库
         url: /wiki/
 
   socialIcons:
@@ -59,7 +54,6 @@ params:
     - name: rss
       url: /index.xml
 
-  # 文章设置
   ShowReadingTime: true
   ShowWordCount: true
   ShowCodeCopyButtons: true

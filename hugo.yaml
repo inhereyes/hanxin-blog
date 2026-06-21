@@ -1,4 +1,4 @@
-baseURL: "https://hanxin.org.cn"
+baseURL: "https://hanxin-blog.pages.dev"
 languageCode: zh-cn
 title: "寒心的角落"
 theme: PaperMod
@@ -50,7 +50,7 @@ params:
     - name: github
       url: "https://github.com/inhereyes"
     - name: email
-      url: "mailto:hi@hanxin.org.cn"
+      url: "mailto:hi@hanxin-blog.pages.dev"
     - name: rss
       url: /index.xml
 

@@ -14,3 +14,9 @@ Thumbs.db
 # Hugo
 .hugo_build.lock
 resources/_gen/
+
+# Obsidian
+.obsidian/
+
+# 杂项
+无标题.png
